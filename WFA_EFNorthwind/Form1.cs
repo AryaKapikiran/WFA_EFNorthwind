@@ -68,5 +68,10 @@ namespace WFA_EFNorthwind
         {
             childForm(new ReportForm());
         }
+
+        private void müşteriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            childForm(new MusteriForm());
+        }
     }
 }
